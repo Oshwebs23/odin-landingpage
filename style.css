@@ -1,0 +1,140 @@
+body {
+    margin: 2px;
+    padding: 2px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: end;
+    padding: 40px;
+    background-color: #32435a;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 56px;
+}
+
+a {
+    color: white;
+}
+
+.sectionOne {
+    display: flex;
+    justify-content: space-around;
+    padding: 160px;
+    background-color: #1f2937;
+}
+
+.headerLeft {
+    color: #f9faf8;
+}
+
+.headerLeft > h1 {
+    font-size: 48px;
+}
+
+.headerLeft > p {
+    font-size: 20px;
+}
+
+button {
+    border-radius: 25px;
+    background-color: aquamarine;
+    font-size: larger;
+}
+
+.placeholder {
+    background-color: whitesmoke;
+    padding: 70px;
+    border-radius: 25px;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 200px;
+    height: 50px;
+    background-color: #1e3457;
+}
+
+.sectionTwo > h3 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.square {
+    min-width: 100px;
+    min-height: 200px;
+    border: 3px solid rgb(90, 4, 4);
+    border-radius: 25px;
+    background-color: #f9faf8;
+}
+
+.sectionThree {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding: 100px;
+    min-height: 200px;
+    min-width: 100px;
+    background-color: #E5E7EB;
+}
+
+.sectionThree > h4 {
+    font-size: 25px;
+}
+
+.sectionFour {
+    display: flex;
+    background-color:antiquewhite;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.bluecontainer {
+    display: flex;
+    background-color: rgb(168, 168, 206);
+    justify-content: center;
+    border-radius: 25px;
+    padding: 10px;
+    flex-basis: 900px;
+    font-size: 20px;
+}
+
+.textRight {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.footer {
+    background-color: #1e3457;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 20px;
+    padding: 70px;
+}
